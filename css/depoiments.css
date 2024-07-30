@@ -1,0 +1,192 @@
+/* Seção de Depoimentos */
+
+#depoiments{
+    min-height: 95vh;
+}
+#depoiment_title{
+    margin-bottom: 15px;
+}
+#depoiment_title p{
+    font-weight: normal;
+    margin: 10px auto 10px;
+    width: 270px;
+    line-height: 23px;
+}
+.anonimg{
+    border-radius: 50%;
+    width: 110px;
+    margin: 0 33px;
+}
+.depbox{
+    display: flex;
+}
+#dep_one{
+    align-self: flex-end;
+}
+#dep_two{
+    margin-top: 4rem;
+}
+#dep_content{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+    row-gap: 50px;
+}
+.stars-icon{
+    display: none;
+}
+
+        .speech {
+            width: 650px;
+            background: gray;
+            padding: 30px;
+            text-align: justify;
+            font-size: 13.5px;
+            border-radius: 35px;
+            color: white;
+            position: relative;
+            order: -1;
+            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.267);
+        }
+
+        .speech:before {
+            content: "";
+            position: absolute;
+            border-left: 20px solid gray;
+            border-right: 20px solid transparent;
+            border-top: 20px solid gray;
+            border-bottom: 20px solid transparent;
+            right: -27px;
+            top: 37px;
+        }
+
+
+
+        .spech::before{
+            content: "";
+            position: absolute;
+            border-left: 20px solid transparent;
+            border-right: 20px solid gray;
+            border-top: 20px solid transparent;
+            border-bottom: 20px solid gray;
+            right: 638px;
+            top: 29px;
+        }
+        .spech {
+            width: 650px;
+            background: gray;
+            padding: 30px;
+            text-align: justify;
+            font-size: 14px;
+            border-radius: 35px;
+            color: white;
+            position: relative;
+            box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.267);
+        }
+
+        #dep_btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 45px 0 25px;
+            row-gap: 25px;
+            align-self: center;
+        }
+        #dep_btn a{
+            font-size: medium;
+            color: black;
+            padding: 20px;
+            border-radius: 25px;
+            background-color: white;
+            transition: 1s  ease ;
+            margin-left: 10px;
+        }
+        #dep_btn a:hover{
+            background-color: #f1f1f1;
+            transition: .8s ease;
+        }
+
+        #politicas{
+            min-height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 4px;
+            margin: 7rem 0;
+        }
+        #politicas a{
+            text-transform: uppercase;
+            color: white;
+            background-color: #000;
+            padding: 10px;
+            border-radius: 7px;
+            letter-spacing: normal;
+            transition: .5s ease;
+        }
+        #politicas a:hover{
+            text-decoration: none;
+            border-radius: 25px;
+        }
+
+        @media (max-width:1100px) {
+            .stars-icon{
+                display: block;
+            }
+            .speech, .spech{
+                max-width: 450px;
+                margin-top: 15px;
+            }
+            .anonimg{
+                width: 50px;
+                height: 50px;
+            }
+            .depbox{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            #dep_one{
+                align-self: auto;
+            }
+            .spech::before, .speech:before{
+                display: none;
+            }
+            .speech{
+                order: initial;
+            }
+            #dep_btn{
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+        
+        @media (max-width:800px) {
+            #dep_btn a{
+                font-size: 2.5vw;
+            }
+
+        }
+        
+        @media (max-width:568px) {
+            #dep_btn a{
+                font-size: 3vw;
+            }
+        }
+        @media (max-width:478px) {
+            .speech, .spech{
+                width: 350px;
+            }
+            #dep_btn a{
+                font-size: 2em;
+            }
+            #dep_btn{
+                width: 300px;
+            }
+        }
+        @media (max-width:350px) {
+            .speech, .spech{
+                width: 300px;
+            }
+        }

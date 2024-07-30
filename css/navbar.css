@@ -1,0 +1,186 @@
+/* Configuração Geral da Navbar */
+
+nav img{
+    width: 130px;
+    margin-right: 32px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 130px;  
+    width: 100%;
+    transition: 1s ease;
+    z-index: 9999;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none !important;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.6em !important;
+}
+nav a:hover:not(footer a){
+    background-color: #fff;
+    color: rgb(32, 80, 99) !important;
+    transition-duration: .8s;
+}
+/* Configuração do menu movel */
+.menu--movel { 
+    position: fixed;
+    top: 0;
+    height: 100px;
+    transform: translateY(-100%); /* O estado padrão é oculto */
+    transition: .25s; /* A velocidade de transição para o estado padrão é a velocidade de ocultação. */
+    z-index: 999;
+}
+.menu--show {
+    transform: translateY(0%);
+    transition: .6s;
+}
+/*
+.active{
+    position: relative;
+}
+.active:after{
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    height: 3px;
+    width: 100%;
+    left: 0;
+    bottom: -4px;
+    transition: 0.3s;
+} 
+
+/* Configuração da navbar mobile */
+.sidebar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.651);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px;
+}
+.sidebar li{
+    width: 100%;
+    height: 50px;
+}
+.sidebar li a{
+    color: black;
+    width: 100%;
+}
+.sidebar li a:hover{
+    background-color:rgba(255, 255, 255, 0.0);
+    transition: none;
+    color: rgb(32, 80, 99)  !important;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+.svg_menu{
+    fill: #fff;
+}
+
+#svg:hover{
+    background-color: black;
+}
+#svgon:hover{
+    background-color: rgba(255, 255, 255, 0.0);
+    fill: white;
+}
+.menu-button{
+    display: none;
+}
+
+.logo-item{
+    cursor: pointer;
+}
+
+.logo-mobile{
+    display: none;
+    width: 80px;
+}
+.mobile-navbar{
+    display: none;
+    margin-right: 0;
+}
+.mobile-navbar h1{
+    color: #fff;
+    font-family: "Archivo Black", sans-serif;
+    letter-spacing: 2px;
+}
+.logo-fixo-nav{
+    width: 50px;
+}
+
+/* Responsividade */
+
+@media (max-width: 950px){
+    nav img.logo-item{
+        margin: 0px 0px 0px 0px;
+    }
+}
+@media (max-width: 883px){
+    .hideOnMobile{
+        display: none;
+    }
+    .logo-fixo-nav{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    nav img{
+        margin: 0;
+    }
+    .menu-button{
+        display: block;
+    }
+    .logo-item{
+        display: none;
+    }
+    .logo-mobile{
+        display: block;
+        margin-left: 30px;
+    }
+    .mobile-navbar{
+        display: flex;
+        align-items: center;
+    }
+    .mobile-navbar h1{
+        font-size: 3em;
+    }
+}
+@media (max-width: 650px){
+    .mobile-navbar h1{
+        font-size: 4vw;
+    }
+}
+@media (max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+    
+}
+@media (max-width: 350px){
+    .mobile-navbar h1{
+        display: none;
+    }
+}
+
