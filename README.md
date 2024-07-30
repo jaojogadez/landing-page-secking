@@ -4,5 +4,8 @@ Secking é uma empresa fictícia, desenvolvida durante o projeto final do curso 
 
 ## Live Server
 
-<a href="">Acesse Aqui</a>
+<a href="https://jaojogadez.github.io/landing-page-secking/">Acesse Aqui</a>
+
+### Tecnologias 
+HTML, CSS e JS
  
