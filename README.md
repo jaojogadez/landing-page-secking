@@ -1,17 +1,15 @@
 # 🔐 Security Hacking
 Uma landing page simples focada em segurança cibernética, feito com HTML5 e CSS3 puros. Há um carrosel Bootstrap para apresentação
 
-image
+![Template Projeto (4)](https://github.com/user-attachments/assets/8201d716-e8db-4d7d-a97a-b0283673aa54)
 
-🔗 Acesse o projeto: https://exemplo.github.io/security-hacking/
+
+🔗 Acesse o projeto: https://jaojogadez.github.io/landing-page-secking/
 
 ## ✨ Recursos
-* 🛡️ Dicas de segurança para proteger seus dados e informações pessoais online.
-* 🔒 Ferramentas para testar vulnerabilidades em sistemas e sites (com responsabilidade).
-* 🌐 Blog e artigos sobre hacking ético e segurança cibernética.
-* 📚 Recursos educacionais sobre práticas de segurança para iniciantes e profissionais.
+* 🔒 Ferramentas para testar vulnerabilidades em sistemas e sites.
 * 📱 Design responsivo para garantir uma boa experiência em dispositivos móveis e desktops.
-* 🔑 Acesso a cursos e certificações sobre segurança da informação.
+* 🖥️ Interface clara e intuitiva.
 
 ## 🛠️ Tecnologias Utilizadas
 * Frontend: HTML, CSS, JavaScript
@@ -20,11 +18,6 @@ image
 ## 📋 Requisitos
 * 🌐 Um navegador web (Chrome, Firefox, Safari, etc.)
 * 💻 Conexão com a internet para acessar os artigos e recursos online.
-
-## 🖼️ Imagens do Projeto
-image
-image
-image
 
 ## 📚 Documentação da API
 Este projeto não depende de APIs externas, mas utiliza recursos de JavaScript no lado do cliente para interações dinâmicas.
