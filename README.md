@@ -22,7 +22,7 @@ Uma landing page simples focada em segurança cibernética, feito com HTML5 e CS
 ## 📚 Documentação da API
 Este projeto não depende de APIs externas, mas utiliza recursos de JavaScript no lado do cliente para interações dinâmicas.
 
-##🤝 Como Contribuir
+## 🤝 Como Contribuir
 Contribuições são bem-vindas! Siga estas etapas:
 
 1. 🍴 Faça um fork do repositório.
