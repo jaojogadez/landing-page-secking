@@ -7,7 +7,7 @@ Uma landing page simples focada em segurança cibernética, feito com HTML5 e CS
 🔗 Acesse o projeto: https://jaojogadez.github.io/landing-page-secking/
 
 ## ✨ Recursos
-* 🔒 Ferramentas para testar vulnerabilidades em sistemas e sites.
+* 🔒 Seções: Apresentam informações da empresa para atrair o cliente.
 * 📱 Design responsivo para garantir uma boa experiência em dispositivos móveis e desktops.
 * 🖥️ Interface clara e intuitiva.
 
